@@ -1,5 +1,8 @@
 # team-A
 
+# LOGO :
+![LOGO](http://s018.radikal.ru/i503/1702/f1/e8ca9dadf309.jpg)
+
 Team members:
 
 1. Ulyana Maslyuk (Product Owner)
