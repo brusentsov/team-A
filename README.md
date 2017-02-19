@@ -10,7 +10,7 @@ Team members:
 6. Alina Korsakova
 7. Vlad Nechiporenko
 
-# Progect Name
+# Project Name
 
 
 # Project description
