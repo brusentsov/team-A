@@ -22,4 +22,4 @@ Project that will provide you a breath of fresh air in a polluted city
 Artifacts:
 * [Trello board](https://trello.com/user06638996)(#)
 * [Project documentation](https://docs.google.com/document/d/1ddqzeXwlE4f9DNrIb0n942wa_YoRCasD-vP8xLMF3pY/edit)(#)
-* [Project presentation](https://docs.google.com/presentation/d/1R-1CqewDhHup7MCiqROL2unfOzpB6rjpuNn4ktUjxgM/edit?usp=drivesdk)(#)
+* [Project presentation](https://docs.google.com/presentation/d/1iKqtZQuLOi1TUbG7vx2ERJ48ZxkIiDLbnSlwnnKmHVM)(#)
