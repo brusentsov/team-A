@@ -1,0 +1,49 @@
+#include <EEPROM.h>
+/*********** EEPROMAnything *************/
+template <class T> int EEPROM_writeAnything(int ee, const T& value)
+{
+    const byte* p = (const byte*)(const void*)&value;
+    unsigned int i;
+    for (i = 0; i < sizeof(value); i++)
+          EEPROM.write(ee++, *p++);
+    return i;
+}
+
+template <class T> int EEPROM_readAnything(int ee, T& value)
+{
+    byte* p = (byte*)(void*)&value;
+    unsigned int i;
+    for (i = 0; i < sizeof(value); i++)
+          *p++ = EEPROM.read(ee++);
+    return i;
+}
+/********************************/
+
+typedef struct{
+    unsigned long newFileTime;
+    char workingFilename[19];
+  } configuration;
+
+//This is a one off thing, so everything is in setup
+void setup(){
+  Serial.begin(9600);
+  
+  //Create the config struct to write to EEPROM, change values as appropriate
+  //Make sure your filename is not too long for the workingFilename char array 
+  configuration config = {1356912000L,"/data/25-12-12.csv"};
+  //Write the values to the EEPROM
+  //EEPROM_writeAnything(0, config);       //Uncomment when you're sure everything is correct
+  configuration config2;                   //Create a second config struct for verification
+  EEPROM_readAnything(0,config2);
+  Serial.print("The value read from EEPROM for newFileTime is: ");
+  Serial.println(config2.newFileTime);
+  Serial.print("The value read from EEPROM for workingFilename is: ");
+  Serial.println(config2.workingFilename);
+  Serial.println("If those values are correct then everything went as planned. Otherwise,");
+  Serial.println("please double check that the values declared for the struct config are");
+  Serial.println("correct and that that EEPROM_writeAnything line is uncommented.");
+}
+
+
+void loop(){
+}
