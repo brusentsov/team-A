@@ -24,3 +24,6 @@ Artifacts:
 * [Project documentation](https://docs.google.com/document/d/1ddqzeXwlE4f9DNrIb0n942wa_YoRCasD-vP8xLMF3pY/edit)(#)
 * [Project presentation](https://docs.google.com/presentation/d/1iKqtZQuLOi1TUbG7vx2ERJ48ZxkIiDLbnSlwnnKmHVM)(#)
 * [Backlogs](https://docs.google.com/spreadsheets/d/1uaNoNaM1TXiuIcnwxmxKHpfwbUOXWo5q_5VmJqMsds8/edit#gid=372950220)(#)
+
+# Video:
+![Video](https://youtu.be/GjNMEtPZ5_A)
