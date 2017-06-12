@@ -26,4 +26,4 @@ Artifacts:
 * [Backlogs](https://docs.google.com/spreadsheets/d/1uaNoNaM1TXiuIcnwxmxKHpfwbUOXWo5q_5VmJqMsds8/edit#gid=372950220)(#)
 
 # Video:
-![Video](https://youtu.be/GjNMEtPZ5_A)
+* [Video](https://youtu.be/GjNMEtPZ5_A)(#)
