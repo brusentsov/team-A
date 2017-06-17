@@ -19,7 +19,7 @@ City Garden
 # Project description
 Project that will provide you a breath of fresh air in a polluted city
 
-Artifacts:
+# Artifacts:
 * [Trello board](https://trello.com/user06638996)(#)
 * [Project documentation](https://docs.google.com/document/d/1AiNW2L0_TqhPm06FHFxuyeJ9M3SPeNirQgbHoE2MVoU/edit)(#)
 * [Project presentation](https://docs.google.com/presentation/d/1iKqtZQuLOi1TUbG7vx2ERJ48ZxkIiDLbnSlwnnKmHVM)(#)
